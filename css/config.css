@@ -1,6 +1,25 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    outline: none;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+:root {
+  --color-bg-dark: #2c2e3e;
+  --color-text-light: #a6acb1;
+  --color-text-dark: #2c2e3e;
+  --color-cyan: #00c8d7;
+  --color-white: #fff;
+}
+
+html {
+  font-family: "Roboto", sans-serif;
+  font-size: 62.5%;
+}
+
+button,
+input,
+textarea {
+  font-family: "Roboto", sans-serif;
 }
