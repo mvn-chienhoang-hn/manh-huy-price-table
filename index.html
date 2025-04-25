@@ -17,6 +17,53 @@
 </head>
 
 <body>
+    <input type="checkbox" name="overlay-check" id="overlay-check" hidden>
+    <label class="overlay" for="overlay-check"></label>
+    <header class="header">
+        <div class="container">
+            <div class="row">
+                <a href="#" class="col-2 header__logo">
+                    <img src="./images/header/thegem-logo.jpg" alt="Logo image">
+                    <span>THEGEM</span>
+                </a>
+
+                <div class="col-xl-10 d-xl-block d-none">
+                    <div class="header__right">
+                        <label for="overlay-check" class="header__close-btn d-xl-none d-block">
+                            <i class="fa-solid fa-xmark"></i>
+                        </label>
+
+                        <nav class="header__nav">
+                            <ul class="nav__list">
+                                <li class="nav__item"><a href="#" class="nav__link">HOME</a></li>
+                                <li class="nav__item"><a href="#" class="nav__link">PAGES</a></li>
+                                <li class="nav__item"><a href="#" class="nav__link">BLOG</a></li>
+                                <li class="nav__item"><a href="#" class="nav__link">PORTFOLIOS</a></li>
+                                <li class="nav__item"><a href="#" class="nav__link">SHOP</a></li>
+                                <li class="nav__item"><a href="#" class="nav__link">FEATURES</a></li>
+                                <li class="nav__item"><a href="#" class="nav__link">ELEMENTS</a></li>
+                            </ul>
+                        </nav>
+
+                        <div class="header__options">
+                            <img src="./images/header/uk-flag.svg" alt="England flag image" class="header__flag">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <div class="header__cart">
+                                <i class="fa-solid fa-bag-shopping"></i>
+                                <span>2</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-10 d-xl-none d-block">
+                    <label class="header__bar-btn" for="overlay-check">
+                        <i class="fa-solid fa-bars"></i>
+                    </label>
+                </div>
+            </div>
+        </div>
+    </header>
     <main class="main">
         <section class="slide-show center-col section-gap">
             <i class="fa-solid fa-list"></i>
