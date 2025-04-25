@@ -22,54 +22,42 @@
     <header class="header">
         <div class="container">
             <div class="row">
-                <a href="#" class="col-2 logo">
+                <a href="#" class="col-2 header__logo">
                     <img src="./images/header/thegem-logo.jpg" alt="Logo image">
                     <span>THEGEM</span>
                 </a>
+
                 <div class="col-xl-10 d-xl-block d-none">
-                    <div class="header-right">
-                        <div class="row">
-                            <label for="overlay-check" class="d-xl-none d-block close-btn">
-                                <i class="fa-solid fa-xmark"></i>
-                            </label>
-                            <nav class="col-9 nav">
-                                <ul>
-                                    <li>
-                                        <a href="#">HOME</a>
-                                    </li>
-                                    <li>
-                                        <a href="#" class="active">PAGES</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">BLOG</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">PORTFOLIOS</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">SHOP</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">FEATURES</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">ELEMENTS</a>
-                                    </li>
-                                </ul>
-                            </nav>
-                            <div class="col-3 options">
-                                <img src="./images/header/uk-flag.svg" alt="England flag images">
-                                <i class="fa-solid fa-magnifying-glass"></i>
-                                <div class="cart">
-                                    <i class="fa-solid fa-bag-shopping"></i>
-                                    <span>2</span>
-                                </div>
+                    <div class="header__right">
+                        <label for="overlay-check" class="header__close-btn d-xl-none d-block">
+                            <i class="fa-solid fa-xmark"></i>
+                        </label>
+
+                        <nav class="header__nav">
+                            <ul class="nav__list">
+                                <li class="nav__item"><a href="#" class="nav__link">HOME</a></li>
+                                <li class="nav__item"><a href="#" class="nav__link">PAGES</a></li>
+                                <li class="nav__item"><a href="#" class="nav__link">BLOG</a></li>
+                                <li class="nav__item"><a href="#" class="nav__link">PORTFOLIOS</a></li>
+                                <li class="nav__item"><a href="#" class="nav__link">SHOP</a></li>
+                                <li class="nav__item"><a href="#" class="nav__link">FEATURES</a></li>
+                                <li class="nav__item"><a href="#" class="nav__link">ELEMENTS</a></li>
+                            </ul>
+                        </nav>
+
+                        <div class="header__options">
+                            <img src="./images/header/uk-flag.svg" alt="England flag image" class="header__flag">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <div class="header__cart">
+                                <i class="fa-solid fa-bag-shopping"></i>
+                                <span>2</span>
                             </div>
                         </div>
                     </div>
                 </div>
+
                 <div class="col-10 d-xl-none d-block">
-                    <label class="bar-btn" for="overlay-check">
+                    <label class="header__bar-btn" for="overlay-check">
                         <i class="fa-solid fa-bars"></i>
                     </label>
                 </div>
