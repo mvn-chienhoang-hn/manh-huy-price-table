@@ -1,0 +1,27 @@
+.introduction__title {
+  margin-bottom: 3rem;
+  text-align: center;
+  font-size: 3rem;
+  letter-spacing: 0.2rem;
+
+  & span {
+    font-weight: 200;
+  }
+}
+
+.introduction__desc {
+  width: 60%;
+  margin: 0 auto;
+  font-size: 1.6rem;
+  color: var(--color-text-light);
+}
+  
+@media screen and (max-width: 1200px) {
+
+  .introduction__title {
+    font-size: 2.4rem;
+  }
+  .introduction__desc {
+    font-size: 1.4rem;
+  }
+}
