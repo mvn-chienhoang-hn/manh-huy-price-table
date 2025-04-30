@@ -1,6 +1,6 @@
 .container {
   margin: 0 auto;
-  width: 100%;
+  width: 80%;
   padding: 0 2rem;
 }
 .row {
@@ -32,6 +32,26 @@
 
 .gap-col-5 {
   column-gap: 5rem;
+}
+
+.gap-row-1 {
+  row-gap: 1rem;
+}
+
+.gap-row-2 {
+  row-gap: 2rem;
+}
+
+.gap-row-3 {
+  row-gap: 3rem;
+}
+
+.gap-row-4 {
+  row-gap: 4rem;
+}
+
+.gap-row-5 {
+  row-gap: 5rem;
 }
 
 .px-1 {
@@ -274,7 +294,20 @@
   border-color: var(--color-cyan);
 }
 
+.active-text {
+  color: var(--color-cyan);
+}
+
 .active-bg {
   background-color: var(--color-cyan);
   color: var(--color-white);
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
 }
