@@ -5,6 +5,8 @@
     > div {
       > div {
         flex-wrap: nowrap;
+        width: 80%;
+        margin: 0 auto;
       }
     }
   }
