@@ -7,7 +7,7 @@
    }
 }
 
-.ad-block__image-container {
+.ad-block__image {
     width: 10rem;
     height: 10rem;
     border: .3rem solid goldenrod;
@@ -32,7 +32,7 @@
     
 }
 
-.ad-block___cta-btn {
+.ad-block___btn {
     text-decoration: none;
     color: var(--color-white);
     font-size: 2rem;
@@ -51,7 +51,7 @@
     .ad-block__title {
         font-size: 4rem;
     }
-    .ad-block___cta-btn {
+    .ad-block___btn {
         font-size: 1.6rem;
     }
 }
@@ -60,7 +60,7 @@
     .ad-block__title {
         font-size: 3.5rem;
     }
-    .ad-block___cta-btn {
+    .ad-block___btn {
         font-size: 1.4rem;
     }
 }
