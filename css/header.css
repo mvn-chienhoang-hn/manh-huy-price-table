@@ -98,19 +98,19 @@
       }
 
       & .header__cart {
-        position: relative;
-        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 1.2rem;
 
         & span {
-          position: absolute;
+          position: relative;
           width: 3rem;
           height: 1.5rem;
           background-color: var(--color-cyan);
           display: flex;
           justify-content: center;
           align-items: center;
-          top: 0;
-          right: -4.2rem;
           color: var(--color-white);
           font-weight: 500;
 
