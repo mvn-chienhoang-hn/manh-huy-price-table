@@ -79,6 +79,9 @@ const makeSlideShow = function (className) {
     });
   });
   return (index = 0) => {
+    if (index < 0 || index > slideItems.length - 1 || index % 1 !== 0) {
+      index = 0;
+    }
     currentIndex = index;
     if (currentIndex !== 0) {
       slideContainer.style.transition = "none";
@@ -90,4 +93,4 @@ const makeSlideShow = function (className) {
   };
 };
 
-makeSlideShow(".slide-show")(0);
+makeSlideShow(".slide-show")(2);
